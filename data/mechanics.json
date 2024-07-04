@@ -1,0 +1,83 @@
+[
+    {
+      "id": 1,
+      "name": "John Doe",
+      "age": 32,
+      "phone": "555-1234",
+      "level": "mechanic",
+      "department": "wiring"
+    },
+    {
+      "id": 2,
+      "name": "Jane Smith",
+      "age": 28,
+      "phone": "555-5678",
+      "level": "senior mechanic",
+      "department": "welding"
+    },
+    {
+      "id": 3,
+      "name": "Michael Johnson",
+      "age": 35,
+      "phone": "555-9012",
+      "level": "mechanic",
+      "department": "body"
+    },
+    {
+      "id": 4,
+      "name": "Emily Brown",
+      "age": 29,
+      "phone": "555-3456",
+      "level": "senior mechanic",
+      "department": "general"
+    },
+    {
+      "id": 5,
+      "name": "David Wilson",
+      "age": 40,
+      "phone": "555-7890",
+      "level": "mechanic",
+      "department": "wiring"
+    },
+    {
+      "id": 6,
+      "name": "Sarah Martinez",
+      "age": 31,
+      "phone": "555-2345",
+      "level": "senior mechanic",
+      "department": "welding"
+    },
+    {
+      "id": 7,
+      "name": "Christopher Taylor",
+      "age": 33,
+      "phone": "555-6789",
+      "level": "mechanic",
+      "department": "body"
+    },
+    {
+      "id": 8,
+      "name": "Amanda Garcia",
+      "age": 27,
+      "phone": "555-0123",
+      "level": "senior mechanic",
+      "department": "general"
+    },
+    {
+      "id": 9,
+      "name": "James Rodriguez",
+      "age": 34,
+      "phone": "555-4567",
+      "level": "mechanic",
+      "department": "wiring"
+    },
+    {
+      "id": 10,
+      "name": "Michelle Lee",
+      "age": 30,
+      "phone": "555-8901",
+      "level": "senior mechanic",
+      "department": "welding"
+    }
+  ]
+  

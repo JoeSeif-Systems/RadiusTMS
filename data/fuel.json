@@ -1,0 +1,12 @@
+[
+    {
+        "issue_id":1,
+        "timestamp":"04-10-24",
+        "user_id":1,
+        "fuel_type":"Diesel Pure",
+        "asset_id":1,
+        "volume_issued":650,
+        "remarks":"nairobi - kampala",
+        "topup": "yes/no"
+    }
+]

@@ -1,0 +1,523 @@
+{
+    "sign": [
+      {
+        "username": "test_user1",
+        "password": "test_password1",
+        "user_id": 123,
+        "organization": "Test Organization 1",
+        "role": "admin",
+        "name": "John Doe 1",
+        "email": "john.doe1@example.com"
+      },
+      {
+        "username": "test_user2",
+        "password": "test_password2",
+        "user_id": 124,
+        "organization": "Test Organization 2",
+        "role": "user",
+        "name": "John Doe 2",
+        "email": "john.doe2@example.com"
+      },
+      {
+        "username": "test_user3",
+        "password": "test_password3",
+        "user_id": 125,
+        "organization": "Test Organization 3",
+        "role": "manager",
+        "name": "John Doe 3",
+        "email": "john.doe3@example.com"
+      }
+    ],
+    "assets": [
+      {
+        "asset_id": "A001",
+        "registration": "KBC 123D",
+        "trailer_reg": "TRAIL001",
+        "model": "MP3",
+        "make": "Mercides Benz",
+        "fuel_capacity": "800",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "black",
+        "type": "hybrid",
+        "driver_id": 456
+      },
+      {
+        "asset_id": "A002",
+        "registration": "KBC 124D",
+        "trailer_reg": "TRAIL002",
+        "model": "FVR",
+        "make": "Mistibish",
+        "fuel_capacity": "1200",
+        "camera": false,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "white",
+        "type": "diesel",
+        "driver_id": 457
+      },
+      {
+        "asset_id": "A003",
+        "registration": "KBC 125D",
+        "trailer_reg": "TRAIL003",
+        "model": "Model Z",
+        "make": "Ford",
+        "fuel_capacity": "850",
+        "camera": true,
+        "tracker": false,
+        "fuel_sensor": true,
+        "color": "blue",
+        "type": "diesel",
+        "driver_id": 458
+      }
+    ],
+    "drivers": [
+      {
+        "driver_id": 456,
+        "asset_id": "A001",
+        "driver_name": "Alice Smith 1",
+        "contact": "+1234567890",
+        "email": "alice.smith1@example.com",
+        "age": 30
+      },
+      {
+        "driver_id": 457,
+        "asset_id": "A002",
+        "driver_name": "Bob Johnson 1",
+        "contact": "+1987654321",
+        "email": "bob.johnson1@example.com",
+        "age": 35
+      },
+      {
+        "driver_id": 458,
+        "asset_id": "A003",
+        "driver_name": "Carol Williams 1",
+        "contact": "+1122334455",
+        "email": "carol.williams1@example.com",
+        "age": 40
+      }
+    ],
+    "spare": [
+      {
+        "spare_id": "S001",
+        "pid": "PID001",
+        "name": "Engine Oil 1",
+        "description": "Synthetic engine oil",
+        "units": "ltrs",
+        "price": 130.99,
+        "quantity": 7500,
+        "reorder": 200
+      },
+      {
+        "spare_id": "S002",
+        "pid": "PID002",
+        "name": "Air Filter 1",
+        "description": "High-quality air filter",
+        "units": "piece",
+        "price": 1500.99,
+        "quantity": 700,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S003",
+        "pid": "PID003",
+        "name": "Coolant 1",
+        "description": "Long-life coolant",
+        "units": "ltrs",
+        "price": 20.99,
+        "quantity": 800,
+        "reorder": 40
+      }
+    ],
+    "fuel": [
+      {
+        "issue_id": "FUEL001",
+        "timestamp": "2024-04-13T08:00:00Z",
+        "user_id": 123,
+        "fuel_id": "F001",
+        "asset_id": "A001",
+        "volume_issued": "500",
+        "remarks": "Kampala to Nairobi",
+        "top_up_fuel": "Yes"
+      },
+      {
+        "issue_id": "FUEL002",
+        "timestamp": "2024-04-13T09:00:00Z",
+        "user_id": 124,
+        "fuel_id": "F002",
+        "asset_id": "A002",
+        "volume_issued": "600",
+        "remarks": "Nairobi to Mombasa & back",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL003",
+        "timestamp": "2024-04-13T10:00:00Z",
+        "user_id": 125,
+        "fuel_id": "F003",
+        "asset_id": "A003",
+        "volume_issued": "450",
+        "remarks": "Nairobi to Juba & back",
+        "top_up_fuel": "Yes"
+      }
+    ],
+    "jobs": [
+      {
+        "job_id": "J001",
+        "timestamp": "2024-04-13T10:00:00Z",
+        "asset_id": "A001",
+        "job_number": "JOB001",
+        "requisition_no": "REQ001",
+        "status": "completed",
+        "description": "Routine maintenance",
+        "mechanics": "Mechanic X",
+        "spare_id": "S001",
+        "quantity": 57,
+        "cost": 50000
+      },
+      {
+        "job_id": "J002",
+        "timestamp": "2024-04-14T10:00:00Z",
+        "asset_id": "A002",
+        "job_number": "JOB002",
+        "requisition_no": "REQ002",
+        "status": "pending",
+        "description": "Diagnostic check",
+        "mechanics": "Mechanic Y",
+        "spare_id": "S002",
+        "quantity": 35,
+        "cost": 30500
+      },
+      {
+        "job_id": "J003",
+        "timestamp": "2024-04-15T10:00:00Z",
+        "asset_id": "A003",
+        "job_number": "JOB003",
+        "requisition_no": "REQ003",
+        "status": "scheduled",
+        "description": "Tire replacement",
+        "mechanics": "Mechanic Z",
+        "spare_id": "S003",
+        "quantity": 22,
+        "cost": 82600
+      }
+    ],
+    "locations": [
+      {
+        "location_id": "LOC001",
+        "name": "Warehouse 1",
+        "capacity": "1000 sq. ft",
+        "geo_tag": "latitude: 40.7128, longitude: -74.0060",
+        "description": "Main warehouse location"
+      },
+      {
+        "location_id": "LOC002",
+        "name": "Warehouse 2",
+        "capacity": "2000 sq. ft",
+        "geo_tag": "latitude: 40.7128, longitude: -74.0060",
+        "description": "Secondary warehouse location"
+      },
+      {
+        "location_id": "LOC003",
+        "name": "Warehouse 3",
+        "capacity": "1500 sq. ft",
+        "geo_tag": "latitude: 40.7128, longitude: -74.0060",
+        "description": "Overflow warehouse location"
+      }
+    ],
+    "store_issue": [
+      {
+        "issue_id": "ISSUE001",
+        "timestamp": "2024-04-13T12:00:00Z",
+        "asset_id": "A001",
+        "job_id": "J001",
+        "spare_id": "S001",
+        "quantity": 57,
+        "status": "issued",
+        "requester": "John Doe"
+      },
+      {
+        "issue_id": "ISSUE002",
+        "timestamp": "2024-04-14T12:00:00Z",
+        "asset_id": "A002",
+        "job_id": "J002",
+        "spare_id": "S002",
+        "quantity": 35,
+        "status": "issued",
+        "requester": "Jane Doe"
+      },
+      {
+        "issue_id": "ISSUE003",
+        "timestamp": "2024-04-15T12:00:00Z",
+        "asset_id": "A003",
+        "job_id": "J003",
+        "spare_id": "S003",
+        "quantity": 22,
+        "status": "issued",
+        "requester": "Jack Doe"
+      }
+    ],
+    "purchase_order": [
+      {
+        "purchase_order_id": "PO001",
+        "timestamp": "2024-04-13T14:00:00Z",
+        "supplier_id": "SUP001",
+        "spare_id": "S001",
+        "quantity": 5,
+        "delivery_date": "2024-04-20",
+        "urgent": true,
+        "cost": 100.00,
+        "description": "Order for engine oil",
+        "status": "pending"
+      },
+      {
+        "purchase_order_id": "PO002",
+        "timestamp": "2024-04-14T14:00:00Z",
+        "supplier_id": "SUP002",
+        "spare_id": "S002",
+        "quantity": 10,
+        "delivery_date": "2024-04-22",
+        "urgent": false,
+        "cost": 200.00,
+        "description": "Order for air filters",
+        "status": "pending"
+      },
+      {
+        "purchase_order_id": "PO003",
+        "timestamp": "2024-04-15T14:00:00Z",
+        "supplier_id": "SUP003",
+        "spare_id": "S003",
+        "quantity": 15,
+        "delivery_date": "2024-04-25",
+        "urgent": true,
+        "cost": 300.00,
+        "description": "Order for coolant",
+        "status": "rejected"
+      }
+    ],
+    "accept_order": [
+      {
+        "accept_id": "ACCEPT001",
+        "purchase_order_id": "PO001",
+        "timestamp": "2024-04-14T08:00:00Z",
+        "spare_id": "S001",
+        "quantity": 5,
+        "price": 100.00,
+        "delivery_date": "2024-04-20",
+        "urgent": true,
+        "status": "accepted"
+      },
+      {
+        "accept_id": "ACCEPT002",
+        "purchase_order_id": "PO002",
+        "timestamp": "2024-04-15T08:00:00Z",
+        "spare_id": "S002",
+        "quantity": 10,
+        "price": 200.00,
+        "delivery_date": "2024-04-22",
+        "urgent": false,
+        "status": "accepted"
+      },
+      {
+        "accept_id": "ACCEPT003",
+        "purchase_order_id": "PO003",
+        "timestamp": "2024-04-16T08:00:00Z",
+        "spare_id": "S003",
+        "quantity": 15,
+        "price": 300.00,
+        "delivery_date": "2024-04-25",
+        "urgent": true,
+        "status": "accepted"
+      }
+    ],
+    "suppliers": [
+      {
+        "supplier_id": "SUP001",
+        "name": "Supplier X",
+        "description": "Main supplier for spare parts",
+        "contact": "+1234567890",
+        "email": "supplier1@example.com"
+      },
+      {
+        "supplier_id": "SUP002",
+        "name": "Supplier Y",
+        "description": "Supplier for filters",
+        "contact": "+1987654321",
+        "email": "supplier2@example.com"
+      },
+      {
+        "supplier_id": "SUP003",
+        "name": "Supplier Z",
+        "description": "Coolant supplier",
+        "contact": "+1122334455",
+        "email": "supplier3@example.com"
+      }
+    ],
+    "fuel_tanks": [
+      {
+        "storage_id": "TANK001",
+        "fuel_id": "F001",
+        "name": "Tank 1",
+        "capacity": 55000
+      },
+      {
+        "storage_id": "TANK002",
+        "fuel_id": "F002",
+        "name": "Tank 2",
+        "capacity": 9000
+      },
+      {
+        "storage_id": "TANK003",
+        "fuel_id": "F003",
+        "name": "Tank 3",
+        "capacity": 7500
+      }
+    ],
+    "fuel_order": [
+      {
+        "fuel_order_id": "ORDER001",
+        "supplier_id": "SUP001",
+        "fuel_id": "F001",
+        "volume_ordered": 5000,
+        "delivery_date": "2024-04-20",
+        "urgent": true,
+        "description": "Order for electric fuel",
+        "status": "pending"
+      },
+      {
+        "fuel_order_id": "ORDER002",
+        "supplier_id": "SUP002",
+        "fuel_id": "F002",
+        "volume_ordered": 17000,
+        "delivery_date": "2024-04-22",
+        "urgent": false,
+        "description": "Order for petrol",
+        "status": "delivered"
+      },
+      {
+        "fuel_order_id": "ORDER003",
+        "supplier_id": "SUP003",
+        "fuel_id": "F003",
+        "volume_ordered": 9000,
+        "delivery_date": "2024-04-25",
+        "urgent": true,
+        "description": "Order for diesel",
+        "status": "pending"
+      }
+    ],
+    "fuel_types": [
+      {
+        "fuel_id": "F001",
+        "name": "Electric",
+        "description": "Electric fuel type",
+        "units": "gallons",
+        "unit_price": 2.50
+      },
+      {
+        "fuel_id": "F002",
+        "name": "Petrol",
+        "description": "Petrol fuel type",
+        "units": "gallons",
+        "unit_price": 3.00
+      },
+      {
+        "fuel_id": "F003",
+        "name": "Diesel",
+        "description": "Diesel fuel type",
+        "units": "gallons",
+        "unit_price": 2.20
+      }
+    ],
+    "users": [
+      {
+        "work_id": "W001",
+        "name": "Jane Smith 1",
+        "position_id": "P001",
+        "phone": "+9876543210",
+        "email": "jane.smith1@example.com",
+        "age": 35
+      },
+      {
+        "work_id": "W002",
+        "name": "Peter Brown 1",
+        "position_id": "P002",
+        "phone": "+9876543211",
+        "email": "peter.brown1@example.com",
+        "age": 40
+      },
+      {
+        "work_id": "W003",
+        "name": "Emily Davis 1",
+        "position_id": "P003",
+        "phone": "+9876543212",
+        "email": "emily.davis1@example.com",
+        "age": 45
+      }
+    ],
+    "positions": [
+      {
+        "position_id": "P001",
+        "title": "Mechanic",
+        "description": "Responsible for maintenance and repairs"
+      },
+      {
+        "position_id": "P002",
+        "title": "Manager",
+        "description": "Oversees operations"
+      },
+      {
+        "position_id": "P003",
+        "title": "Supervisor",
+        "description": "Supervises team"
+      }
+    ],
+    "service": [
+      {
+        "service_id": "SER001",
+        "asset_id": "A001",
+        "odometer": "25000 miles",
+        "date": "2024-04-13T08:00:00Z",
+        "description": "Routine service",
+        "cost": 150.00,
+        "air_cleaner": true,
+        "air_filter": true,
+        "engine_oil": "Synthetic oil",
+        "coolant": "Coolant X",
+        "gearbox_oil": "Gear oil Y",
+        "gearbox": "Good condition",
+        "engine": "No issues"
+      },
+      {
+        "service_id": "SER002",
+        "asset_id": "A002",
+        "odometer": "30000 miles",
+        "date": "2024-04-14T08:00:00Z",
+        "description": "Major service",
+        "cost": 250.00,
+        "air_cleaner": true,
+        "air_filter": true,
+        "engine_oil": "Synthetic oil",
+        "coolant": "Coolant X",
+        "gearbox_oil": "Gear oil Y",
+        "gearbox": "Good condition",
+        "engine": "No issues"
+      },
+      {
+        "service_id": "SER003",
+        "asset_id": "A003",
+        "odometer": "20000 miles",
+        "date": "2024-04-15T08:00:00Z",
+        "description": "Minor service",
+        "cost": 100.00,
+        "air_cleaner": true,
+        "air_filter": true,
+        "engine_oil": "Synthetic oil",
+        "coolant": "Coolant X",
+        "gearbox_oil": "Gear oil Y",
+        "gearbox": "Good condition",
+        "engine": "No issues"
+      }
+    ]
+  }
+  

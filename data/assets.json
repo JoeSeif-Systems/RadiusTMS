@@ -1,0 +1,18 @@
+[
+
+    {
+        "asset_id":"0001",
+        "registration":"KBP 643K",
+        "trailer_reg":"ZC 8154",
+        "make":"Mercedes Benz",
+        "model":"Axor MP1",
+        "fuel_capacity":"750 L",
+        "camera":"yes",
+        "tracker":"yes",
+        "fuel_sensor":"yes",
+        "color":"white",
+        "type":"double diff",
+        "driver_id":""
+
+    }
+]

@@ -1,0 +1,11 @@
+[
+    {
+        "spare_id": 1,
+        "pid": "EO123",
+        "spare_name": "Engine Oil",
+        "descreption": "Engine Oil",
+        "quantity": 10,
+        "units": "liters",
+        "price": 25.99
+    }
+]

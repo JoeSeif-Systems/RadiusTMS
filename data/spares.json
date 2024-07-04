@@ -1,0 +1,323 @@
+[
+    {
+      "id": 1,
+      "spare_name": "Engine Oil",
+      "pid": "EO123",
+      "quantity": 10,
+      "units": "liters",
+      "price": 25.99
+    },
+    {
+      "id": 2,
+      "spare_name": "Brake Pads",
+      "pid": "BP456",
+      "quantity": 4,
+      "units": "sets",
+      "price": 45.75
+    },
+    {
+      "id": 3,
+      "spare_name": "Spark Plugs",
+      "pid": "SP789",
+      "quantity": 16,
+      "units": "pieces",
+      "price": 3.49
+    },
+    {
+      "id": 4,
+      "spare_name": "Air Filter",
+      "pid": "AF101",
+      "quantity": 8,
+      "units": "pieces",
+      "price": 12.99
+    },
+    {
+      "id": 5,
+      "spare_name": "Battery",
+      "pid": "BAT202",
+      "quantity": 2,
+      "units": "units",
+      "price": 89.99
+    },
+    {
+      "id": 6,
+      "spare_name": "Wiper Blades",
+      "pid": "WB303",
+      "quantity": 6,
+      "units": "pairs",
+      "price": 15.25
+    },
+    {
+      "id": 7,
+      "spare_name": "Transmission Fluid",
+      "pid": "TF404",
+      "quantity": 12,
+      "units": "liters",
+      "price": 19.99
+    },
+    {
+      "id": 8,
+      "spare_name": "Radiator Hose",
+      "pid": "RH505",
+      "quantity": 3,
+      "units": "meters",
+      "price": 8.50
+    },
+    {
+      "id": 9,
+      "spare_name": "Tire",
+      "pid": "TIR606",
+      "quantity": 4,
+      "units": "pieces",
+      "price": 65.00
+    },
+    {
+      "id": 10,
+      "spare_name": "Headlight Bulb",
+      "pid": "HLB707",
+      "quantity": 10,
+      "units": "pieces",
+      "price": 6.99
+    },
+    {
+      "id": 11,
+      "spare_name": "Alternator",
+      "pid": "ALT808",
+      "quantity": 2,
+      "units": "units",
+      "price": 129.99
+    },
+    {
+      "id": 12,
+      "spare_name": "Steering Rack",
+      "pid": "SR909",
+      "quantity": 1,
+      "units": "unit",
+      "price": 299.99
+    },
+    {
+      "id": 13,
+      "spare_name": "Shock Absorber",
+      "pid": "SA101",
+      "quantity": 4,
+      "units": "units",
+      "price": 59.99
+    },
+    {
+      "id": 14,
+      "spare_name": "Wheel Bearing",
+      "pid": "WB111",
+      "quantity": 8,
+      "units": "units",
+      "price": 24.99
+    },
+    {
+      "id": 15,
+      "spare_name": "Exhaust Pipe",
+      "pid": "EP121",
+      "quantity": 2,
+      "units": "units",
+      "price": 79.99
+    },
+    {
+      "id": 16,
+      "spare_name": "Fuel Pump",
+      "pid": "FP131",
+      "quantity": 3,
+      "units": "units",
+      "price": 99.99
+    },
+    {
+      "id": 17,
+      "spare_name": "Brake Caliper",
+      "pid": "BC141",
+      "quantity": 2,
+      "units": "units",
+      "price": 69.99
+    },
+    {
+      "id": 18,
+      "spare_name": "Clutch Kit",
+      "pid": "CK151",
+      "quantity": 1,
+      "units": "kit",
+      "price": 199.99
+    },
+    {
+      "id": 19,
+      "spare_name": "Cabin Air Filter",
+      "pid": "CAF161",
+      "quantity": 6,
+      "units": "pieces",
+      "price": 14.99
+    },
+    {
+      "id": 20,
+      "spare_name": "Timing Belt",
+      "pid": "TB171",
+      "quantity": 2,
+      "units": "units",
+      "price": 49.99
+    },
+    {
+      "id": 21,
+      "spare_name": "Brake Rotors",
+      "pid": "BR212",
+      "quantity": 3,
+      "units": "pieces",
+      "price": 55.99
+    },
+    {
+      "id": 22,
+      "spare_name": "Engine Air Filter",
+      "pid": "EAF222",
+      "quantity": 5,
+      "units": "pieces",
+      "price": 10.99
+    },
+    {
+      "id": 23,
+      "spare_name": "Fuel Filter",
+      "pid": "FF232",
+      "quantity": 4,
+      "units": "pieces",
+      "price": 8.99
+    },
+    {
+      "id": 24,
+      "spare_name": "Power Steering Pump",
+      "pid": "PSP242",
+      "quantity": 2,
+      "units": "units",
+      "price": 119.99
+    },
+    {
+      "id": 25,
+      "spare_name": "Thermostat",
+      "pid": "TH252",
+      "quantity": 2,
+      "units": "units",
+      "price": 15.99
+    },
+    {
+      "id": 26,
+      "spare_name": "Wheel Hub Assembly",
+      "pid": "WHA262",
+      "quantity": 4,
+      "units": "units",
+      "price": 69.99
+    },
+    {
+      "id": 27,
+      "spare_name": "Muffler",
+      "pid": "MU272",
+      "quantity": 2,
+      "units": "units",
+      "price": 89.99
+    },
+    {
+      "id": 28,
+      "spare_name": "Starter Motor",
+      "pid": "SM282",
+      "quantity": 1,
+      "units": "unit",
+      "price": 129.99
+    },
+    {
+      "id": 29,
+      "spare_name": "CV Joint",
+      "pid": "CVJ292",
+      "quantity": 2,
+      "units": "units",
+      "price": 34.99
+    },
+    {
+      "id": 30,
+      "spare_name": "Window Regulator",
+      "pid": "WR302",
+      "quantity": 1,
+      "units": "unit",
+      "price": 79.99
+    },
+    {
+      "id": 31,
+      "spare_name": "Fuel Injector",
+      "pid": "FI312",
+      "quantity": 4,
+      "units": "units",
+      "price": 29.99
+    },
+    {
+      "id": 32,
+      "spare_name": "Catalytic Converter",
+      "pid": "CC322",
+      "quantity": 1,
+      "units": "unit",
+      "price": 299.99
+    },
+    {
+      "id": 33,
+      "spare_name": "Drive Belt",
+      "pid": "DB332",
+      "quantity": 3,
+      "units": "pieces",
+      "price": 12.99
+    },
+    {
+      "id": 34,
+      "spare_name": "Steering Column",
+      "pid": "SC342",
+      "quantity": 1,
+      "units": "unit",
+      "price": 179.99
+    },
+    {
+      "id": 35,
+      "spare_name": "Radiator",
+      "pid": "RAD352",
+      "quantity": 1,
+      "units": "unit",
+      "price": 159.99
+    },
+    {
+      "id": 36,
+      "spare_name": "Tail Light Assembly",
+      "pid": "TLA362",
+      "quantity": 2,
+      "units": "units",
+      "price": 49.99
+    },
+    {
+      "id": 37,
+      "spare_name": "Wheel Rim",
+      "pid": "WR372",
+      "quantity": 4,
+      "units": "units",
+      "price": 79.99
+    },
+    {
+      "id": 38,
+      "spare_name": "Brake Master Cylinder",
+      "pid": "BMC382",
+      "quantity": 1,
+      "units": "unit",
+      "price": 89.99
+    },
+    {
+      "id": 39,
+      "spare_name": "Clutch Slave Cylinder",
+      "pid": "CSC392",
+      "quantity": 1,
+      "units": "unit",
+      "price": 49.99
+    },
+    {
+      "id": 40,
+      "spare_name": "Knock Sensor",
+      "pid": "KS402",
+      "quantity": 2,
+      "units": "units",
+      "price": 19.99
+    }
+  ]
+  
