@@ -1,0 +1,1871 @@
+{
+    "sign": [
+      {
+        "username": "test_user1",
+        "password": "test_password1",
+        "user_id": 123,
+        "organization": "Test Organization 1",
+        "role": "admin",
+        "name": "John Doe 1",
+        "email": "john.doe1@example.com"
+      },
+      {
+        "username": "test_user2",
+        "password": "test_password2",
+        "user_id": 124,
+        "organization": "Test Organization 2",
+        "role": "user",
+        "name": "John Doe 2",
+        "email": "john.doe2@example.com"
+      },
+      {
+        "username": "test_user3",
+        "password": "test_password3",
+        "user_id": 125,
+        "organization": "Test Organization 3",
+        "role": "manager",
+        "name": "John Doe 3",
+        "email": "john.doe3@example.com"
+      }
+    ],
+    "assets": [
+      {
+        "asset_id": "A001",
+        "registration": "KBC 123D",
+        "trailer_reg": "TRAIL001",
+        "model": "Actros",
+        "make": "Mercides Benz",
+        "fuel_capacity": "800",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "black",
+        "type": "hybrid",
+        "driver_id": 456
+      },
+      {
+        "asset_id": "A002",
+        "registration": "KBC 124D",
+        "trailer_reg": "TRAIL002",
+        "model": "FVR",
+        "make": "Mistibish",
+        "fuel_capacity": "1200",
+        "camera": false,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "white",
+        "type": "diesel",
+        "driver_id": 457
+      },
+      {
+        "asset_id": "A003",
+        "registration": "KBC 125D",
+        "trailer_reg": "TRAIL003",
+        "model": "Axor",
+        "make": "Mercides Benz",
+        "fuel_capacity": "850",
+        "camera": true,
+        "tracker": false,
+        "fuel_sensor": true,
+        "color": "blue",
+        "type": "diesel",
+        "driver_id": 458
+      },
+      {
+        "asset_id": "A004",
+        "registration": "KBC 126D",
+        "trailer_reg": "TRAIL004",
+        "model": "CXZ",
+        "make": "Isuzu",
+        "fuel_capacity": "1000",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "red",
+        "type": "petrol",
+        "driver_id": 459
+      },
+      {
+        "asset_id": "A005",
+        "registration": "KBC 127D",
+        "trailer_reg": "TRAIL005",
+        "model": "FH",
+        "make": "Volvo",
+        "fuel_capacity": "900",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "green",
+        "type": "diesel",
+        "driver_id": 460
+      },
+      {
+        "asset_id": "A006",
+        "registration": "KBC 128D",
+        "trailer_reg": "TRAIL006",
+        "model": "Cresta",
+        "make": "Toyota",
+        "fuel_capacity": "700",
+        "camera": false,
+        "tracker": false,
+        "fuel_sensor": true,
+        "color": "silver",
+        "type": "hybrid",
+        "driver_id": 461
+      },
+      {
+        "asset_id": "A007",
+        "registration": "KBC 129D",
+        "trailer_reg": "TRAIL007",
+        "model": "CVR",
+        "make": "Chevrolet",
+        "fuel_capacity": "1100",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "black",
+        "type": "petrol",
+        "driver_id": 462
+      },
+      {
+        "asset_id": "A008",
+        "registration": "KBC 130D",
+        "trailer_reg": "TRAIL008",
+        "model": "Econoline",
+        "make": "Ford",
+        "fuel_capacity": "950",
+        "camera": false,
+        "tracker": false,
+        "fuel_sensor": true,
+        "color": "white",
+        "type": "diesel",
+        "driver_id": 463
+      },
+      {
+        "asset_id": "A009",
+        "registration": "KBC 131D",
+        "trailer_reg": "TRAIL009",
+        "model": "Lorry",
+        "make": "Nissan",
+        "fuel_capacity": "850",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "blue",
+        "type": "hybrid",
+        "driver_id": 464
+      },
+      {
+        "asset_id": "A010",
+        "registration": "KBC 132D",
+        "trailer_reg": "TRAIL010",
+        "model": "Vito",
+        "make": "Mercedes Benz",
+        "fuel_capacity": "1000",
+        "camera": false,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "red",
+        "type": "petrol",
+        "driver_id": 465
+      },
+      {
+        "asset_id": "A011",
+        "registration": "KBC 133D",
+        "trailer_reg": "TRAIL011",
+        "model": "D-Max",
+        "make": "Isuzu",
+        "fuel_capacity": "1200",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "green",
+        "type": "diesel",
+        "driver_id": 466
+      },
+      {
+        "asset_id": "A012",
+        "registration": "KBC 134D",
+        "trailer_reg": "TRAIL012",
+        "model": "Sprinter",
+        "make": "Mercedes Benz",
+        "fuel_capacity": "800",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "black",
+        "type": "hybrid",
+        "driver_id": 467
+      },
+      {
+        "asset_id": "A013",
+        "registration": "KBC 135D",
+        "trailer_reg": "TRAIL013",
+        "model": "NQR",
+        "make": "Isuzu",
+        "fuel_capacity": "900",
+        "camera": false,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "white",
+        "type": "diesel",
+        "driver_id": 468
+      },
+      {
+        "asset_id": "A014",
+        "registration": "KBC 136D",
+        "trailer_reg": "TRAIL014",
+        "model": "Accord",
+        "make": "Honda",
+        "fuel_capacity": "750",
+        "camera": true,
+        "tracker": false,
+        "fuel_sensor": true,
+        "color": "blue",
+        "type": "hybrid",
+        "driver_id": 469
+      },
+      {
+        "asset_id": "A015",
+        "registration": "KBC 137D",
+        "trailer_reg": "TRAIL015",
+        "model": "Ranger",
+        "make": "Ford",
+        "fuel_capacity": "1100",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "red",
+        "type": "petrol",
+        "driver_id": 470
+      },
+      {
+        "asset_id": "A016",
+        "registration": "KBC 138D",
+        "trailer_reg": "TRAIL016",
+        "model": "Navara",
+        "make": "Nissan",
+        "fuel_capacity": "950",
+        "camera": false,
+        "tracker": false,
+        "fuel_sensor": true,
+        "color": "green",
+        "type": "diesel",
+        "driver_id": 471
+      },
+      {
+        "asset_id": "A017",
+        "registration": "KBC 139D",
+        "trailer_reg": "TRAIL017",
+        "model": "Venza",
+        "make": "Toyota",
+        "fuel_capacity": "850",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "silver",
+        "type": "hybrid",
+        "driver_id": 472
+      },
+      {
+        "asset_id": "A018",
+        "registration": "KBC 140D",
+        "trailer_reg": "TRAIL018",
+        "model": "Rav4",
+        "make": "Toyota",
+        "fuel_capacity": "1000",
+        "camera": true,
+        "tracker": false,
+        "fuel_sensor": false,
+        "color": "black",
+        "type": "petrol",
+        "driver_id": 473
+      },
+      {
+        "asset_id": "A019",
+        "registration": "KBC 141D",
+        "trailer_reg": "TRAIL019",
+        "model": "Forester",
+        "make": "Subaru",
+        "fuel_capacity": "800",
+        "camera": false,
+        "tracker": true,
+        "fuel_sensor": true,
+        "color": "white",
+        "type": "hybrid",
+        "driver_id": 474
+      },
+      {
+        "asset_id": "A020",
+        "registration": "KBC 142D",
+        "trailer_reg": "TRAIL020",
+        "model": "Tiguan",
+        "make": "Volkswagen",
+        "fuel_capacity": "1200",
+        "camera": true,
+        "tracker": true,
+        "fuel_sensor": false,
+        "color": "blue",
+        "type": "diesel",
+        "driver_id": 475
+      }
+    ],
+    "drivers": [
+      {
+        "driver_id": 456,
+        "asset_id": "A001",
+        "driver_name": "Alice Smith 1",
+        "contact": "+1234567890",
+        "email": "alice.smith1@example.com",
+        "age": 30
+      },
+      {
+        "driver_id": 457,
+        "asset_id": "A002",
+        "driver_name": "Bob Johnson 1",
+        "contact": "+1987654321",
+        "email": "bob.johnson1@example.com",
+        "age": 35
+      },
+      {
+        "driver_id": 458,
+        "asset_id": "A003",
+        "driver_name": "Carol Williams 1",
+        "contact": "+1122334455",
+        "email": "carol.williams1@example.com",
+        "age": 40
+      }
+    ],
+    "spare": [
+      {
+        "spare_id": "S001",
+        "pid": "PID001",
+        "name": "Engine Oil 1",
+        "description": "Synthetic engine oil",
+        "units": "ltrs",
+        "price": 130.99,
+        "quantity": 7500,
+        "reorder": 200
+      },
+      {
+        "spare_id": "S002",
+        "pid": "PID002",
+        "name": "Air Filter 1",
+        "description": "High-quality air filter",
+        "units": "piece",
+        "price": 1500.99,
+        "quantity": 700,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S003",
+        "pid": "PID003",
+        "name": "Coolant 1",
+        "description": "Long-life coolant",
+        "units": "ltrs",
+        "price": 20.99,
+        "quantity": 800,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S004",
+        "pid": "PID004",
+        "name": "Brake Pads 1",
+        "description": "High-performance brake pads",
+        "units": "sets",
+        "price": 99.99,
+        "quantity": 1200,
+        "reorder": 100
+      },
+      {
+        "spare_id": "S005",
+        "pid": "PID005",
+        "name": "Transmission Fluid 1",
+        "description": "Automatic transmission fluid",
+        "units": "ltrs",
+        "price": 45.99,
+        "quantity": 2000,
+        "reorder": 150
+      },
+      {
+        "spare_id": "S006",
+        "pid": "PID006",
+        "name": "Spark Plugs 1",
+        "description": "Premium spark plugs",
+        "units": "pieces",
+        "price": 9.99,
+        "quantity": 3000,
+        "reorder": 200
+      },
+      {
+        "spare_id": "S007",
+        "pid": "PID007",
+        "name": "Wiper Blades 1",
+        "description": "All-season wiper blades",
+        "units": "pieces",
+        "price": 25.99,
+        "quantity": 1500,
+        "reorder": 100
+      },
+      {
+        "spare_id": "S008",
+        "pid": "PID008",
+        "name": "Battery 1",
+        "description": "Maintenance-free car battery",
+        "units": "pieces",
+        "price": 199.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S009",
+        "pid": "PID009",
+        "name": "Fuel Filter 1",
+        "description": "High-efficiency fuel filter",
+        "units": "pieces",
+        "price": 35.99,
+        "quantity": 1000,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S010",
+        "pid": "PID010",
+        "name": "Tire 1",
+        "description": "All-season performance tire",
+        "units": "pieces",
+        "price": 149.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S011",
+        "pid": "PID011",
+        "name": "Oil Filter 1",
+        "description": "High-flow oil filter",
+        "units": "pieces",
+        "price": 15.99,
+        "quantity": 1200,
+        "reorder": 100
+      },
+      {
+        "spare_id": "S012",
+        "pid": "PID012",
+        "name": "Brake Fluid 1",
+        "description": "High-performance brake fluid",
+        "units": "ltrs",
+        "price": 19.99,
+        "quantity": 1500,
+        "reorder": 100
+      },
+      {
+        "spare_id": "S013",
+        "pid": "PID013",
+        "name": "Cabin Air Filter 1",
+        "description": "Premium cabin air filter",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 800,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S014",
+        "pid": "PID014",
+        "name": "Power Steering Fluid 1",
+        "description": "Synthetic power steering fluid",
+        "units": "ltrs",
+        "price": 25.99,
+        "quantity": 1000,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S015",
+        "pid": "PID015",
+        "name": "Shock Absorber 1",
+        "description": "Gas-filled shock absorber",
+        "units": "pieces",
+        "price": 89.99,
+        "quantity": 600,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S016",
+        "pid": "PID016",
+        "name": "Serpentine Belt 1",
+        "description": "High-tensile serpentine belt",
+        "units": "pieces",
+        "price": 39.99,
+        "quantity": 900,
+        "reorder": 70
+      },
+      {
+        "spare_id": "S017",
+        "pid": "PID017",
+        "name": "Radiator Hose 1",
+        "description": "Heat-resistant radiator hose",
+        "units": "pieces",
+        "price": 14.99,
+        "quantity": 1100,
+        "reorder": 90
+      },
+      {
+        "spare_id": "S018",
+        "pid": "PID018",
+        "name": "Brake Rotor 1",
+        "description": "Cross-drilled brake rotor",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 700,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S019",
+        "pid": "PID019",
+        "name": "Wheel Bearing 1",
+        "description": "Premium wheel bearing",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 800,
+        "reorder": 70
+      },
+      {
+        "spare_id": "S020",
+        "pid": "PID020",
+        "name": "Thermostat 1",
+        "description": "Engine thermostat",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 1000,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S021",
+        "pid": "PID021",
+        "name": "Starter Motor 1",
+        "description": "High-torque starter motor",
+        "units": "pieces",
+        "price": 129.99,
+        "quantity": 400,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S022",
+        "pid": "PID022",
+        "name": "Alternator 1",
+        "description": "Heavy-duty alternator",
+        "units": "pieces",
+        "price": 149.99,
+        "quantity": 500,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S023",
+        "pid": "PID023",
+        "name": "Clutch Kit 1",
+        "description": "Performance clutch kit",
+        "units": "sets",
+        "price": 299.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S024",
+        "pid": "PID024",
+        "name": "Exhaust Manifold 1",
+        "description": "High-flow exhaust manifold",
+        "units": "pieces",
+        "price": 199.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S025",
+        "pid": "PID025",
+        "name": "Tie Rod End 1",
+        "description": "Heavy-duty tie rod end",
+        "units": "pieces",
+        "price": 34.99,
+        "quantity": 700,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S026",
+        "pid": "PID026",
+        "name": "Wheel Hub Assembly 1",
+        "description": "Premium wheel hub assembly",
+        "units": "pieces",
+        "price": 99.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S027",
+        "pid": "PID027",
+        "name": "Timing Belt Kit 1",
+        "description": "Complete timing belt kit",
+        "units": "sets",
+        "price": 129.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S028",
+        "pid": "PID028",
+        "name": "Drive Belt 1",
+        "description": "High-performance drive belt",
+        "units": "pieces",
+        "price": 24.99,
+        "quantity": 800,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S029",
+        "pid": "PID029",
+        "name": "Fuel Pump 1",
+        "description": "High-flow fuel pump",
+        "units": "pieces",
+        "price": 89.99,
+        "quantity": 300,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S030",
+        "pid": "PID030",
+        "name": "Water Pump 1",
+        "description": "Heavy-duty water pump",
+        "units": "pieces",
+        "price": 59.99,
+        "quantity": 500,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S031",
+        "pid": "PID031",
+        "name": "Steering Rack 1",
+        "description": "Power steering rack",
+        "units": "pieces",
+        "price": 299.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S032",
+        "pid": "PID032",
+        "name": "Radiator 1",
+        "description": "High-flow radiator",
+        "units": "pieces",
+        "price": 179.99,
+        "quantity": 400,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S033",
+        "pid": "PID033",
+        "name": "Control Arm 1",
+        "description": "Heavy-duty control arm",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 600,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S034",
+        "pid": "PID034",
+        "name": "Camshaft 1",
+        "description": "Performance camshaft",
+        "units": "pieces",
+        "price": 129.99,
+        "quantity": 400,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S035",
+        "pid": "PID035",
+        "name": "Crankshaft 1",
+        "description": "Forged crankshaft",
+        "units": "pieces",
+        "price": 199.99,
+        "quantity": 300,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S036",
+        "pid": "PID036",
+        "name": "Piston Rings 1",
+        "description": "High-compression piston rings",
+        "units": "sets",
+        "price": 59.99,
+        "quantity": 600,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S037",
+        "pid": "PID037",
+        "name": "Engine Mount 1",
+        "description": "Heavy-duty engine mount",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 700,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S038",
+        "pid": "PID038",
+        "name": "Oxygen Sensor 1",
+        "description": "High-precision oxygen sensor",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S039",
+        "pid": "PID039",
+        "name": "Fuel Injector 1",
+        "description": "High-flow fuel injector",
+        "units": "pieces",
+        "price": 69.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S040",
+        "pid": "PID040",
+        "name": "Ignition Coil 1",
+        "description": "Performance ignition coil",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 700,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S041",
+        "pid": "PID041",
+        "name": "Mass Air Flow Sensor 1",
+        "description": "Precision mass air flow sensor",
+        "units": "pieces",
+        "price": 99.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S042",
+        "pid": "PID042",
+        "name": "Throttle Body 1",
+        "description": "Electronic throttle body",
+        "units": "pieces",
+        "price": 149.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S043",
+        "pid": "PID043",
+        "name": "EGR Valve 1",
+        "description": "Exhaust gas recirculation valve",
+        "units": "pieces",
+        "price": 89.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S044",
+        "pid": "PID044",
+        "name": "PCV Valve 1",
+        "description": "Positive crankcase ventilation valve",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 800,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S045",
+        "pid": "PID045",
+        "name": "Intake Manifold 1",
+        "description": "High-flow intake manifold",
+        "units": "pieces",
+        "price": 129.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S046",
+        "pid": "PID046",
+        "name": "Turbocharger 1",
+        "description": "Performance turbocharger",
+        "units": "pieces",
+        "price": 599.99,
+        "quantity": 100,
+        "reorder": 10
+      },
+      {
+        "spare_id": "S047",
+        "pid": "PID047",
+        "name": "Intercooler 1",
+        "description": "High-efficiency intercooler",
+        "units": "pieces",
+        "price": 299.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S048",
+        "pid": "PID048",
+        "name": "Fuel Pressure Regulator 1",
+        "description": "Precision fuel pressure regulator",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S049",
+        "pid": "PID049",
+        "name": "Catalytic Converter 1",
+        "description": "High-flow catalytic converter",
+        "units": "pieces",
+        "price": 399.99,
+        "quantity": 100,
+        "reorder": 10
+      },
+      {
+        "spare_id": "S050",
+        "pid": "PID050",
+        "name": "Exhaust System 1",
+        "description": "Performance exhaust system",
+        "units": "sets",
+        "price": 899.99,
+        "quantity": 50,
+        "reorder": 5
+      },
+      {
+        "spare_id": "S051",
+        "pid": "PID051",
+        "name": "Engine Gasket Set 1",
+        "description": "Complete engine gasket set",
+        "units": "sets",
+        "price": 199.99,
+        "quantity": 100,
+        "reorder": 10
+      },
+      {
+        "spare_id": "S052",
+        "pid": "PID052",
+        "name": "Head Gasket 1",
+        "description": "Multi-layer steel head gasket",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S053",
+        "pid": "PID053",
+        "name": "Piston Kit 1",
+        "description": "Forged piston kit",
+        "units": "sets",
+        "price": 299.99,
+        "quantity": 100,
+        "reorder": 10
+      },
+      {
+        "spare_id": "S054",
+        "pid": "PID054",
+        "name": "Connecting Rod 1",
+        "description": "Heavy-duty connecting rod",
+        "units": "pieces",
+        "price": 99.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S055",
+        "pid": "PID055",
+        "name": "Valve Cover Gasket 1",
+        "description": "High-temperature valve cover gasket",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S056",
+        "pid": "PID056",
+        "name": "Valve Stem Seal 1",
+        "description": "Premium valve stem seal",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 800,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S057",
+        "pid": "PID057",
+        "name": "Timing Chain Kit 1",
+        "description": "Complete timing chain kit",
+        "units": "sets",
+        "price": 199.99,
+        "quantity": 100,
+        "reorder": 10
+      },
+      {
+        "spare_id": "S058",
+        "pid": "PID058",
+        "name": "Camshaft Position Sensor 1",
+        "description": "High-precision camshaft position sensor",
+        "units": "pieces",
+        "price": 39.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S059",
+        "pid": "PID059",
+        "name": "Crankshaft Position Sensor 1",
+        "description": "High-precision crankshaft position sensor",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S060",
+        "pid": "PID060",
+        "name": "Knock Sensor 1",
+        "description": "Precision knock sensor",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 800,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S061",
+        "pid": "PID061",
+        "name": "Oxygen Sensor 2",
+        "description": "High-precision oxygen sensor",
+        "units": "pieces",
+        "price": 89.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S062",
+        "pid": "PID062",
+        "name": "Throttle Position Sensor 1",
+        "description": "Precision throttle position sensor",
+        "units": "pieces",
+        "price": 59.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S063",
+        "pid": "PID063",
+        "name": "EGR Pressure Feedback Sensor 1",
+        "description": "High-precision EGR pressure feedback sensor",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S064",
+        "pid": "PID064",
+        "name": "Fuel Tank Cap 1",
+        "description": "Locking fuel tank cap",
+        "units": "pieces",
+        "price": 14.99,
+        "quantity": 800,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S065",
+        "pid": "PID065",
+        "name": "Starter Solenoid 1",
+        "description": "Heavy-duty starter solenoid",
+        "units": "pieces",
+        "price": 24.99,
+        "quantity": 700,
+        "reorder": 70
+      },
+      {
+        "spare_id": "S066",
+        "pid": "PID066",
+        "name": "Fuel Tank Sending Unit 1",
+        "description": "Precision fuel tank sending unit",
+        "units": "pieces",
+        "price": 39.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S067",
+        "pid": "PID067",
+        "name": "Ignition Switch 1",
+        "description": "Heavy-duty ignition switch",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 900,
+        "reorder": 90
+      },
+      {
+        "spare_id": "S068",
+        "pid": "PID068",
+        "name": "Cooling Fan 1",
+        "description": "High-efficiency cooling fan",
+        "units": "pieces",
+        "price": 69.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S069",
+        "pid": "PID069",
+        "name": "Heater Core 1",
+        "description": "High-flow heater core",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S070",
+        "pid": "PID070",
+        "name": "Radiator Fan Relay 1",
+        "description": "Heavy-duty radiator fan relay",
+        "units": "pieces",
+        "price": 14.99,
+        "quantity": 800,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S071",
+        "pid": "PID071",
+        "name": "Oil Pressure Switch 1",
+        "description": "Precision oil pressure switch",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S072",
+        "pid": "PID072",
+        "name": "Starter Relay 1",
+        "description": "Heavy-duty starter relay",
+        "units": "pieces",
+        "price": 9.99,
+        "quantity": 1000,
+        "reorder": 100
+      },
+      {
+        "spare_id": "S073",
+        "pid": "PID073",
+        "name": "Fuel Pressure Gauge 1",
+        "description": "Precision fuel pressure gauge",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S074",
+        "pid": "PID074",
+        "name": "Ignition Module 1",
+        "description": "High-performance ignition module",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S075",
+        "pid": "PID075",
+        "name": "Distributor Cap 1",
+        "description": "Premium distributor cap",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S076",
+        "pid": "PID076",
+        "name": "Ignition Rotor 1",
+        "description": "Heavy-duty ignition rotor",
+        "units": "pieces",
+        "price": 14.99,
+        "quantity": 700,
+        "reorder": 70
+      },
+      {
+        "spare_id": "S077",
+        "pid": "PID077",
+        "name": "Alternator Belt 1",
+        "description": "High-tension alternator belt",
+        "units": "pieces",
+        "price": 24.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S078",
+        "pid": "PID078",
+        "name": "AC Compressor 1",
+        "description": "High-efficiency AC compressor",
+        "units": "pieces",
+        "price": 299.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S079",
+        "pid": "PID079",
+        "name": "AC Condenser 1",
+        "description": "All-aluminum AC condenser",
+        "units": "pieces",
+        "price": 199.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S080",
+        "pid": "PID080",
+        "name": "AC Evaporator 1",
+        "description": "High-efficiency AC evaporator",
+        "units": "pieces",
+        "price": 149.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S081",
+        "pid": "PID081",
+        "name": "AC Expansion Valve 1",
+        "description": "Precision AC expansion valve",
+        "units": "pieces",
+        "price": 39.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S082",
+        "pid": "PID082",
+        "name": "AC Receiver Drier 1",
+        "description": "High-capacity AC receiver drier",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 700,
+        "reorder": 70
+      },
+      {
+        "spare_id": "S083",
+        "pid": "PID083",
+        "name": "AC Pressure Switch 1",
+        "description": "Precision AC pressure switch",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 800,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S084",
+        "pid": "PID084",
+        "name": "AC Blower Motor 1",
+        "description": "Heavy-duty AC blower motor",
+        "units": "pieces",
+        "price": 79.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S085",
+        "pid": "PID085",
+        "name": "AC Blower Motor Resistor 1",
+        "description": "Precision AC blower motor resistor",
+        "units": "pieces",
+        "price": 14.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S086",
+        "pid": "PID086",
+        "name": "AC Heater Control Valve 1",
+        "description": "Heavy-duty AC heater control valve",
+        "units": "pieces",
+        "price": 49.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S087",
+        "pid": "PID087",
+        "name": "AC Heater Core Control Valve 1",
+        "description": "Precision AC heater core control valve",
+        "units": "pieces",
+        "price": 29.99,
+        "quantity": 500,
+        "reorder": 50
+      },
+      {
+        "spare_id": "S088",
+        "pid": "PID088",
+        "name": "AC Heater Blend Door Actuator 1",
+        "description": "Heavy-duty AC heater blend door actuator",
+        "units": "pieces",
+        "price": 39.99,
+        "quantity": 400,
+        "reorder": 40
+      },
+      {
+        "spare_id": "S089",
+        "pid": "PID089",
+        "name": "AC Heater Blend Door Actuator Motor 1",
+        "description": "Precision AC heater blend door actuator motor",
+        "units": "pieces",
+        "price": 59.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S090",
+        "pid": "PID090",
+        "name": "AC Heater Temperature Sensor 1",
+        "description": "Precision AC heater temperature sensor",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S091",
+        "pid": "PID091",
+        "name": "AC Heater Control Panel 1",
+        "description": "Heavy-duty AC heater control panel",
+        "units": "pieces",
+        "price": 99.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S092",
+        "pid": "PID092",
+        "name": "AC Heater Control Knob 1",
+        "description": "Precision AC heater control knob",
+        "units": "pieces",
+        "price": 9.99,
+        "quantity": 800,
+        "reorder": 80
+      },
+      {
+        "spare_id": "S093",
+        "pid": "PID093",
+        "name": "AC Heater Control Cable 1",
+        "description": "Heavy-duty AC heater control cable",
+        "units": "pieces",
+        "price": 14.99,
+        "quantity": 700,
+        "reorder": 70
+      },
+      {
+        "spare_id": "S094",
+        "pid": "PID094",
+        "name": "AC Heater Control Switch 1",
+        "description": "Precision AC heater control switch",
+        "units": "pieces",
+        "price": 24.99,
+        "quantity": 600,
+        "reorder": 60
+      },
+      {
+        "spare_id": "S095",
+        "pid": "PID095",
+        "name": "AC Heater Control Unit 1",
+        "description": "Heavy-duty AC heater control unit",
+        "units": "pieces",
+        "price": 129.99,
+        "quantity": 300,
+        "reorder": 30
+      },
+      {
+        "spare_id": "S096",
+        "pid": "PID096",
+        "name": "AC Heater Control Module 1",
+        "description": "Precision AC heater control module",
+        "units": "pieces",
+        "price": 149.99,
+        "quantity": 200,
+        "reorder": 20
+      },
+      {
+        "spare_id": "S097",
+        "pid": "PID097",
+        "name": "AC Heater Blower Motor Resistor 1",
+        "description": "Heavy-duty AC heater blower motor resistor",
+        "units": "pieces",
+        "price": 19.99,
+        "quantity": 500,
+        "reorder": 50
+      }
+    ],
+    "fuel": [
+      {
+        "issue_id": "FUEL001",
+        "timestamp": "2024-04-02T08:23:17Z",
+        "user_id": 123,
+        "fuel_id": "F001",
+        "asset_id": "A001",
+        "volume_issued": "500",
+        "remarks": "Kampala to Nairobi",
+        "top_up_fuel": "Yes"
+      },
+      {
+        "issue_id": "FUEL002",
+        "timestamp": "2024-04-05T15:42:59Z",
+        "user_id": 124,
+        "fuel_id": "F002",
+        "asset_id": "A002",
+        "volume_issued": "600",
+        "remarks": "Nairobi to Mombasa & back",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL003",
+        "timestamp": "2024-04-08T21:14:33Z",
+        "user_id": 125,
+        "fuel_id": "F003",
+        "asset_id": "A003",
+        "volume_issued": "450",
+        "remarks": "Nairobi to Juba & back",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL004",
+        "timestamp": "2024-04-10T04:59:28Z",
+        "user_id": 126,
+        "fuel_id": "F004",
+        "asset_id": "A004",
+        "volume_issued": "700",
+        "remarks": "Kampala to Dar es Salaam",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL005",
+        "timestamp": "2024-04-13T09:36:12Z",
+        "user_id": 127,
+        "fuel_id": "F005",
+        "asset_id": "A005",
+        "volume_issued": "550",
+        "remarks": "Nairobi to Kampala",
+        "top_up_fuel": "Yes"
+      },
+      {
+        "issue_id": "FUEL006",
+        "timestamp": "2024-04-17T18:10:45Z",
+        "user_id": 128,
+        "fuel_id": "F006",
+        "asset_id": "A006",
+        "volume_issued": "400",
+        "remarks": "Kampala to Kigali",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL007",
+        "timestamp": "2024-04-20T10:27:50Z",
+        "user_id": 129,
+        "fuel_id": "F007",
+        "asset_id": "A007",
+        "volume_issued": "750",
+        "remarks": "Kigali to Kampala & back",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL008",
+        "timestamp": "2024-04-23T05:14:02Z",
+        "user_id": 130,
+        "fuel_id": "F008",
+        "asset_id": "A008",
+        "volume_issued": "600",
+        "remarks": "Nairobi to Mombasa",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL009",
+        "timestamp": "2024-04-26T12:45:18Z",
+        "user_id": 131,
+        "fuel_id": "F009",
+        "asset_id": "A009",
+        "volume_issued": "500",
+        "remarks": "Kampala to Gulu",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL010",
+        "timestamp": "2024-04-29T20:37:09Z",
+        "user_id": 132,
+        "fuel_id": "F010",
+        "asset_id": "A010",
+        "volume_issued": "650",
+        "remarks": "Nairobi to Nakuru",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL011",
+        "timestamp": "2024-04-04T06:52:11Z",
+        "user_id": 133,
+        "fuel_id": "F011",
+        "asset_id": "A011",
+        "volume_issued": "800",
+        "remarks": "Nairobi to Kisumu & back",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL012",
+        "timestamp": "2024-04-07T14:28:37Z",
+        "user_id": 134,
+        "fuel_id": "F012",
+        "asset_id": "A012",
+        "volume_issued": "450",
+        "remarks": "Kampala to Jinja",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL013",
+        "timestamp": "2024-04-11T22:11:19Z",
+        "user_id": 135,
+        "fuel_id": "F013",
+        "asset_id": "A013",
+        "volume_issued": "700",
+        "remarks": "Nairobi to Eldoret",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL014",
+        "timestamp": "2024-04-14T04:42:30Z",
+        "user_id": 136,
+        "fuel_id": "F014",
+        "asset_id": "A014",
+        "volume_issued": "550",
+        "remarks": "Kampala to Fort Portal",
+        "top_up_fuel": "Yes"
+      },
+      {
+        "issue_id": "FUEL015",
+        "timestamp": "2024-04-17T12:30:55Z",
+        "user_id": 137,
+        "fuel_id": "F015",
+        "asset_id": "A015",
+        "volume_issued": "600",
+        "remarks": "Nairobi to Kisumu",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL016",
+        "timestamp": "2024-04-20T19:08:03Z",
+        "user_id": 138,
+        "fuel_id": "F016",
+        "asset_id": "A016",
+        "volume_issued": "450",
+        "remarks": "Kampala to Mbale",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL017",
+        "timestamp": "2024-04-24T02:46:17Z",
+        "user_id": 139,
+        "fuel_id": "F017",
+        "asset_id": "A017",
+        "volume_issued": "700",
+        "remarks": "Nairobi to Nakuru & back",
+        "top_up_fuel": "Yes"
+      },
+      {
+        "issue_id": "FUEL018",
+        "timestamp": "2024-04-27T09:19:58Z",
+        "user_id": 140,
+        "fuel_id": "F018",
+        "asset_id": "A018",
+        "volume_issued": "600",
+        "remarks": "Kampala to Masaka",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL019",
+        "timestamp": "2024-04-30T14:55:07Z",
+        "user_id": 141,
+        "fuel_id": "F019",
+        "asset_id": "A019",
+        "volume_issued": "550",
+        "remarks": "Nairobi to Thika",
+        "top_up_fuel": "No"
+      },
+      {
+        "issue_id": "FUEL020",
+        "timestamp": "2024-04-03T22:08:40Z",
+        "user_id": 142,
+        "fuel_id": "F020",
+        "asset_id": "A020",
+        "volume_issued": "650",
+        "remarks": "Kampala to Entebbe",
+        "top_up_fuel": "No"
+      }
+    ],
+    "jobs": [
+      {
+        "job_id": "J001",
+        "timestamp": "2024-04-13T10:00:00Z",
+        "asset_id": "A001",
+        "job_number": "JOB001",
+        "requisition_no": "REQ001",
+        "status": "completed",
+        "description": "Routine maintenance",
+        "mechanics": "Mechanic X",
+        "spare_id": "S001",
+        "quantity": 57,
+        "cost": 50000
+      },
+      {
+        "job_id": "J002",
+        "timestamp": "2024-04-14T10:00:00Z",
+        "asset_id": "A002",
+        "job_number": "JOB002",
+        "requisition_no": "REQ002",
+        "status": "pending",
+        "description": "Diagnostic check",
+        "mechanics": "Mechanic Y",
+        "spare_id": "S002",
+        "quantity": 35,
+        "cost": 30500
+      },
+      {
+        "job_id": "J003",
+        "timestamp": "2024-04-15T10:00:00Z",
+        "asset_id": "A003",
+        "job_number": "JOB003",
+        "requisition_no": "REQ003",
+        "status": "scheduled",
+        "description": "Tire replacement",
+        "mechanics": "Mechanic Z",
+        "spare_id": "S003",
+        "quantity": 22,
+        "cost": 82600
+      }
+    ],
+    "locations": [
+      {
+        "location_id": "LOC001",
+        "name": "Warehouse 1",
+        "capacity": "1000 sq. ft",
+        "geo_tag": "latitude: 40.7128, longitude: -74.0060",
+        "description": "Main warehouse location"
+      },
+      {
+        "location_id": "LOC002",
+        "name": "Warehouse 2",
+        "capacity": "2000 sq. ft",
+        "geo_tag": "latitude: 40.7128, longitude: -74.0060",
+        "description": "Secondary warehouse location"
+      },
+      {
+        "location_id": "LOC003",
+        "name": "Warehouse 3",
+        "capacity": "1500 sq. ft",
+        "geo_tag": "latitude: 40.7128, longitude: -74.0060",
+        "description": "Overflow warehouse location"
+      }
+    ],
+    "store_issue": [
+      {
+        "issue_id": "ISSUE001",
+        "timestamp": "2024-04-13T12:00:00Z",
+        "asset_id": "A001",
+        "job_id": "J001",
+        "spare_id": "S001",
+        "quantity": 57,
+        "status": "issued",
+        "requester": "John Doe"
+      },
+      {
+        "issue_id": "ISSUE002",
+        "timestamp": "2024-04-14T12:00:00Z",
+        "asset_id": "A002",
+        "job_id": "J002",
+        "spare_id": "S002",
+        "quantity": 35,
+        "status": "issued",
+        "requester": "Jane Doe"
+      },
+      {
+        "issue_id": "ISSUE003",
+        "timestamp": "2024-04-15T12:00:00Z",
+        "asset_id": "A003",
+        "job_id": "J003",
+        "spare_id": "S003",
+        "quantity": 22,
+        "status": "issued",
+        "requester": "Jack Doe"
+      }
+    ],
+    "purchase_order": [
+      {
+        "purchase_order_id": "PO001",
+        "timestamp": "2024-04-13T14:00:00Z",
+        "supplier_id": "SUP001",
+        "spare_id": "S001",
+        "quantity": 5,
+        "delivery_date": "2024-04-20",
+        "urgent": true,
+        "cost": 100.00,
+        "description": "Order for engine oil",
+        "status": "pending"
+      },
+      {
+        "purchase_order_id": "PO002",
+        "timestamp": "2024-04-14T14:00:00Z",
+        "supplier_id": "SUP002",
+        "spare_id": "S002",
+        "quantity": 10,
+        "delivery_date": "2024-04-22",
+        "urgent": false,
+        "cost": 200.00,
+        "description": "Order for air filters",
+        "status": "pending"
+      },
+      {
+        "purchase_order_id": "PO003",
+        "timestamp": "2024-04-15T14:00:00Z",
+        "supplier_id": "SUP003",
+        "spare_id": "S003",
+        "quantity": 15,
+        "delivery_date": "2024-04-25",
+        "urgent": true,
+        "cost": 300.00,
+        "description": "Order for coolant",
+        "status": "rejected"
+      }
+    ],
+    "accept_order": [
+      {
+        "accept_id": "ACCEPT001",
+        "purchase_order_id": "PO001",
+        "timestamp": "2024-04-14T08:00:00Z",
+        "spare_id": "S001",
+        "quantity": 5,
+        "price": 100.00,
+        "delivery_date": "2024-04-20",
+        "urgent": true,
+        "status": "accepted"
+      },
+      {
+        "accept_id": "ACCEPT002",
+        "purchase_order_id": "PO002",
+        "timestamp": "2024-04-15T08:00:00Z",
+        "spare_id": "S002",
+        "quantity": 10,
+        "price": 200.00,
+        "delivery_date": "2024-04-22",
+        "urgent": false,
+        "status": "accepted"
+      },
+      {
+        "accept_id": "ACCEPT003",
+        "purchase_order_id": "PO003",
+        "timestamp": "2024-04-16T08:00:00Z",
+        "spare_id": "S003",
+        "quantity": 15,
+        "price": 300.00,
+        "delivery_date": "2024-04-25",
+        "urgent": true,
+        "status": "accepted"
+      }
+    ],
+    "suppliers": [
+      {
+        "supplier_id": "SUP001",
+        "name": "Supplier X",
+        "description": "Main supplier for spare parts",
+        "contact": "+1234567890",
+        "email": "supplier1@example.com"
+      },
+      {
+        "supplier_id": "SUP002",
+        "name": "Supplier Y",
+        "description": "Supplier for filters",
+        "contact": "+1987654321",
+        "email": "supplier2@example.com"
+      },
+      {
+        "supplier_id": "SUP003",
+        "name": "Supplier Z",
+        "description": "Coolant supplier",
+        "contact": "+1122334455",
+        "email": "supplier3@example.com"
+      }
+    ],
+    "fuel_tanks": [
+      {
+        "storage_id": "TANK001",
+        "fuel_id": "F001",
+        "name": "Tank 1",
+        "capacity": 55000
+      },
+      {
+        "storage_id": "TANK002",
+        "fuel_id": "F002",
+        "name": "Tank 2",
+        "capacity": 9000
+      },
+      {
+        "storage_id": "TANK003",
+        "fuel_id": "F003",
+        "name": "Tank 3",
+        "capacity": 7500
+      }
+    ],
+    "fuel_order": [
+      {
+        "fuel_order_id": "ORDER001",
+        "supplier_id": "SUP001",
+        "fuel_id": "F001",
+        "volume_ordered": 5000,
+        "delivery_date": "2024-04-20",
+        "urgent": true,
+        "description": "Order for electric fuel",
+        "status": "pending"
+      },
+      {
+        "fuel_order_id": "ORDER002",
+        "supplier_id": "SUP002",
+        "fuel_id": "F002",
+        "volume_ordered": 17000,
+        "delivery_date": "2024-04-22",
+        "urgent": false,
+        "description": "Order for petrol",
+        "status": "delivered"
+      },
+      {
+        "fuel_order_id": "ORDER003",
+        "supplier_id": "SUP003",
+        "fuel_id": "F003",
+        "volume_ordered": 9000,
+        "delivery_date": "2024-04-25",
+        "urgent": true,
+        "description": "Order for diesel",
+        "status": "pending"
+      }
+    ],
+    "fuel_types": [
+      {
+        "fuel_id": "F001",
+        "name": "Electric",
+        "description": "Electric fuel type",
+        "units": "gallons",
+        "unit_price": 2.50
+      },
+      {
+        "fuel_id": "F002",
+        "name": "Petrol",
+        "description": "Petrol fuel type",
+        "units": "gallons",
+        "unit_price": 3.00
+      },
+      {
+        "fuel_id": "F003",
+        "name": "Diesel",
+        "description": "Diesel fuel type",
+        "units": "gallons",
+        "unit_price": 2.20
+      }
+    ],
+    "users": [
+      {
+        "work_id": "W001",
+        "name": "Jane Smith 1",
+        "position_id": "P001",
+        "phone": "+9876543210",
+        "email": "jane.smith1@example.com",
+        "age": 35
+      },
+      {
+        "work_id": "W002",
+        "name": "Peter Brown 1",
+        "position_id": "P002",
+        "phone": "+9876543211",
+        "email": "peter.brown1@example.com",
+        "age": 40
+      },
+      {
+        "work_id": "W003",
+        "name": "Emily Davis 1",
+        "position_id": "P003",
+        "phone": "+9876543212",
+        "email": "emily.davis1@example.com",
+        "age": 45
+      }
+    ],
+    "positions": [
+      {
+        "position_id": "P001",
+        "title": "Mechanic",
+        "description": "Responsible for maintenance and repairs"
+      },
+      {
+        "position_id": "P002",
+        "title": "Manager",
+        "description": "Oversees operations"
+      },
+      {
+        "position_id": "P003",
+        "title": "Supervisor",
+        "description": "Supervises team"
+      }
+    ],
+    "service": [
+      {
+        "service_id": "SER001",
+        "asset_id": "A001",
+        "odometer": 25000,
+        "date": "2024-04-13T08:00:00Z",
+        "description": "Routine service",
+        "cost": 150.00,
+        "air_cleaner": true,
+        "air_filter": true,
+        "engine_oil": "Synthetic oil",
+        "coolant": "Coolant X",
+        "gearbox_oil": "Gear oil Y",
+        "gearbox": "Good condition",
+        "engine": "No issues"
+      },
+      {
+        "service_id": "SER002",
+        "asset_id": "A002",
+        "odometer": 30000,
+        "date": "2024-04-14T08:00:00Z",
+        "description": "Major service",
+        "cost": 250.00,
+        "air_cleaner": true,
+        "air_filter": true,
+        "engine_oil": "Synthetic oil",
+        "coolant": "Coolant X",
+        "gearbox_oil": "Gear oil Y",
+        "gearbox": "Good condition",
+        "engine": "No issues"
+      },
+      {
+        "service_id": "SER003",
+        "asset_id": "A003",
+        "odometer": 20000,
+        "date": "2024-04-15T08:00:00Z",
+        "description": "Minor service",
+        "cost": 100.00,
+        "air_cleaner": true,
+        "air_filter": true,
+        "engine_oil": "Synthetic oil",
+        "coolant": "Coolant X",
+        "gearbox_oil": "Gear oil Y",
+        "gearbox": "Good condition",
+        "engine": "No issues"
+      }
+    ]
+  }
+  
